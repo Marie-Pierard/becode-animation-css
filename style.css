@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+.boutons {
+    display: flex;
+    flex-direction: column;
+}
+.bouton1{
+    background-color: black;
+    color: white;
+    margin:10rem;
+    height: 4rem;
+    width: 10rem;
+    border-color: white;
+    border: solid;
+    border-width: 4px;
+}
+.bouton1:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+.bouton2{
+    background-color: black;
+    color: white;
+    margin:10rem;
+    height: 4rem;
+    width: 10rem;
+    border-color: white;
+    border: solid;
+    border-width: 4px;
+    transition: transform 2s;
+}
+.bouton2:hover {
+    background-color: white;
+    color: black;
+    transform: scale(2);
+}
+.bouton3{
+    background-color: black;
+    color: white;
+    margin:10rem;
+    height: 4rem;
+    width: 10rem;
+    border-color: white;
+    border: solid;
+    border-width: 4px;
+    transition: transform 2s;
+}
+.bouton3:hover {
+    background-color: white;
+    color: black;
+    transform: translate(10rem);
+}
