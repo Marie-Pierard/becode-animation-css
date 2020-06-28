@@ -1,0 +1,87 @@
+body{
+    background-color: orange;
+    font-size: 15px;
+}
+.card{
+    position: absolute;
+    width: 20vw;
+    Height: 60vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgb(243, 243, 213);
+    -webkit-box-shadow: 0px 0px 30px rgba(71, 68, 68, 0.2);
+    -webkit-transition: -webkit-box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.image{
+    width: 100%;
+    height:40%;
+}
+.date {
+    background-color: rgb(122, 47, 47);
+    color: rgb(241, 241, 194);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 55px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 14px;
+}
+.cardImage {
+    height: 255px;
+    width: 370px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    transition: height 0.3s;
+  }
+  .cardImage img {
+    width: 100%;
+    opacity: 1;
+    display: block;
+    -webkit-transition: opacity 0.3s, 
+    -webkit-transform 0.3s;
+  }
+footer{
+    background-color: rgb(230, 251, 252);
+    font-style: italic;
+    position: relative;
+    margin-bottom: 0%;
+    padding: 3%;
+}
+.Photos {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    height: 25px;
+    width: 15%;
+    padding: 0 15px;
+    color: #FFF;
+    font-size: 11px;
+    background-color: rgb(122, 47, 47);
+}
+.info{
+    padding-left:3%;
+}
+/*hover*/
+.card:hover {
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+    opacity: 0.7;
+}
+.card:hover .cardImage {
+    height: 100px;
+  }
+  
+  .card:hover img {
+    opacity: 0.7;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+
+.info:hover{
+    transform: translateY(-30%)
+}
+
